@@ -44,9 +44,10 @@ body{
 }
 
 .first__screen{
+    overflow: hidden;
     position: relative;
     width: 100%;
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -74,7 +75,9 @@ body{
 }
 
 .play__btn{
-    margin-top: 100px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    margin-top: 50px;
     font-size: 96px;
     font-weight: 500;
     color: #fff;
@@ -86,10 +89,42 @@ body{
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+}
+
+.play__btn:hover{
+    box-shadow: 0 0 20px #ff6026;
 }
 
 .robo{
     bottom: 0;
     left: 0;
     position: absolute;
+    z-index: -1;
+}
+
+.pattern__block{
+    z-index: -1;
+    background-color: var(--main-bg);
+    position: absolute;
+    right: 0;
+    top: -10;
+    height: 200%;
+    width: 50%;
+    transform: rotate(19deg) translateX(30%);
+    -webkit-transform: rotate(19deg) translateX(30%);
+    -moz-transform: rotate(19deg) translateX(30%);
+    -ms-transform: rotate(19deg) translateX(30%);
+    -o-transform: rotate(19deg) translateX(30%);
+}
+
+.first__screen-content{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    align-items: center;
+    justify-content: space-between;
 }
