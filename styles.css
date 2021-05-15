@@ -39,15 +39,15 @@ body{
     padding: 0;
     margin: 0 auto;
     color: #fff;
-    max-width: 100vw;
+    max-width: 1000px;
     overflow-x: hidden;
 }
 
 .first__screen{
     overflow: hidden;
     position: relative;
-    width: 50%;
-    height: 50vh;
+    width: 100%;
+    height: 600px;
     display: flex;
     justify-content: space-around;
     align-items: center;
