@@ -1,3 +1,41 @@
+@font-face {
+    font-family: "DIN Pro Medium";
+    src: url(fonts/DIN\ Pro\ Medium.otf);
+}
+
+@font-face {
+    font-family: "DIN Pro Bold";
+    src: url(fonts/DIN\ Pro\ Bold.otf);
+}
+
+@font-face {
+    font-family: "DIN Pro Black";
+    src: url(fonts/DIN\ Pro\ Black.otf);
+}
+
+:root{
+    --main-bg: #7700FF;
+    --second-bg: #FF4F11;
+
+    --font-regular: "DIN Pro Medium";
+    --font-bold: "DIN Pro Bold";
+    --font-black: "DIN Pro Black";
+
+    --heading: 32px;
+    --sub-heading: 36px;
+    --big-heading: 64px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0 auto;
+    color: #fff;
+}
+
 .round{
     width: 100px;
     height: 100px;
