@@ -46,13 +46,13 @@ body{
 .first__screen{
     overflow: hidden;
     position: relative;
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding: 150px 15px;
+    padding: 75px 6px;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -69,7 +69,7 @@ body{
 }
 
 .game__name{
-    font-size: 96px;
+    font-size: 48px;
     font-family: var(--font-regular);
     font-weight: 900;
 }
@@ -77,18 +77,18 @@ body{
 .play__btn{
     cursor: pointer;
     transition: ease 0.3s;
-    margin-top: 50px;
-    font-size: 96px;
+    margin-top: 25px;
+    font-size: 48px;
     font-weight: 500;
     color: #fff;
     border: none;
     background-color: var(--second-bg);
-    padding: 10px 90px;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
+    padding: 5px 45px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
     -webkit-transition: ease 0.3s;
     -moz-transition: ease 0.3s;
     -ms-transition: ease 0.3s;
@@ -96,7 +96,7 @@ body{
 }
 
 .play__btn:hover{
-    box-shadow: 0 0 20px #ff6026;
+    box-shadow: 0 0 10px #ff6026;
 }
 
 .robo{
