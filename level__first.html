@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="level__first.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="content">
+
+        <div class="dark__bg">
+            <div class="level__description">
+                <h1 class="target">Цель</h1>
+                <p class="description__text">
+                    Расставьте камеры видеонаблюдения на нужных позициях.
+                </p>
+                <div class="cameras">
+                    <div class="camera first__camera">
+                        <div class="first__camera-icon"></div>
+                    </div>
+                    <div class="camera second__camera">
+                        <div class="second__camera-icon"></div>
+                    </div>
+                </div>
+                <button class="next" onclick="hideBlock()">Вперед</button>
+            </div>
+            </div>
+    <div class="dropzone one"></div>
+    <div class="dropzone two"></div>
+    <div class="dropzone three"></div>
+    <div class="dropzone four"></div>
+    <div class="dropzone five"></div>
+    <div class="dropzone six"></div>
+
+    <img src="images/firstLevel.jpg" class="first__fon">
+
+    <div class="cameras">
+        <div class="camera first__camera">
+            <div class="first__camera-icon" draggable="true"></div>
+        </div>
+        <div class="camera second__camera">
+            <div class="second__camera-icon " draggable="true"></div>
+        </div>
+    </div>
+
+    
+
+    <div class="attempts__count">3 Попытки</div>
+
+    
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
