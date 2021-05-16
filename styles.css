@@ -1,16 +1,16 @@
 @font-face {
     font-family: "DIN Pro Medium";
-    src: url(fonts/DIN\ Pro\ Medium.otf);
+    src: url(fonts/DINProMedium.otf);
 }
 
 @font-face {
     font-family: "DIN Pro Bold";
-    src: url(fonts/DIN\ Pro\ Bold.otf);
+    src: url(fonts/DINProBold.otf);
 }
 
 @font-face {
     font-family: "DIN Pro Black";
-    src: url(fonts/DIN\ Pro\ Black.otf);
+    src: url(fonts/DINProBlack.otf);
 }
 
 :root{
