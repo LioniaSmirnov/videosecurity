@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "DIN Pro Medium";
     src: url(fonts/DINProMedium.otf);
 }
@@ -11,15 +11,21 @@
 @font-face {
     font-family: "DIN Pro Black";
     src: url(fonts/DINProBlack.otf);
-}
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
 :root{
     --main-bg: #7700FF;
     --second-bg: #FF4F11;
 
-    --font-regular: "DIN Pro Medium";
-    --font-bold: "DIN Pro Bold";
-    --font-black: "DIN Pro Black";
+    --font-regular: "Regular";
+    --font-bold: "Medium";
+    --font-black: "Black";
+
+    --fw-regular: 400;
+    --fw-bold: 500;
+    --fw-black: 900;
 
     --heading: 32px;
     --sub-heading: 36px;
@@ -42,6 +48,7 @@ body{
     color: #fff;
     max-width: 1000px;
     overflow-x: hidden;
+    font-family: 'Roboto';
 }
 
 .first__screen{
