@@ -120,7 +120,7 @@ document.addEventListener("drop", function(event) {
       <h2 class="winner__heading">Game Over</h2>
       <p class="winner__text">
       Неправильное расположение камер
-      Попробуй еще раз :( 
+      Попробуй еще раз :(
       </p>
       </div>
 
@@ -156,7 +156,6 @@ function changeText(){
 }
 
 function anotherTime(){
-  
   if(attempts == 0){
     document.querySelector('.winner__text').innerHTML = `Ваши попытки закончились, обновите страницу.`;
     let close = document.createElement('button');
