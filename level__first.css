@@ -2,7 +2,7 @@
     --main-color: rgba(119, 0, 255, 0.8);
 }
 
-@font-face {
+/*@font-face {
     font-family: "DIN Pro Black";
     src: url(fonts/DINProBlack.otf);
 }
@@ -10,7 +10,9 @@
 @font-face {
     font-family: "DIN Pro Medium";
     src: url(fonts/DINProMedium.otf);
-}
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
 
 
 body{
@@ -48,7 +50,8 @@ body{
     align-items: center;
     text-align: center;
     padding: 80px 15px;
-    font-family: "DIN Pro Black";
+    font-family: "Roboto";
+    font-weight: 900;
 }
 
 .level__description .cameras{
@@ -68,7 +71,8 @@ body{
 .next{
     background-color:#FF4F11;
     padding: 5px 30px;
-    font-family: "DIN Pro Black";
+    font-family: "Roboto";
+    font-weight: 900;
     font-size: 24px;
     color: #fff;
     cursor: pointer;
@@ -100,7 +104,8 @@ body{
     background-color: var(--main-color);
     color: #fff;
     max-width: 170px;
-    font-family: "DIN Pro Black";
+    font-family: "Roboto";
+    font-weight: 900;
     padding: 10px 30px;
     text-align: center;
     border-radius: 8px;
@@ -144,7 +149,8 @@ body{
     right: 0;
     color: #000;
     position: absolute;
-    font-family: "DIN Pro Black";
+    font-family: "Roboto";
+    font-weight: 900;
 }
 
 .second__camera-icon::after{
@@ -153,7 +159,8 @@ body{
     right: -15px;
     color: #000;
     position: absolute;
-    font-family: "DIN Pro Black";
+    font-family: "Roboto";
+    font-weight: 900;
 }
 
 .second__camera-icon{
@@ -218,7 +225,8 @@ body{
     display: flex;
     flex-direction: column;
     padding: 30px 15px;
-    font-family: "DIN Pro Medium";
+    font-family: "Roboto";
+    font-weight: 500;
     font-size: 18px;
     border: none;
     border-radius: 20%;
@@ -237,7 +245,8 @@ body{
 .close{
     background-color:#FF4F11;
     padding: 5px 30px;
-    font-family: "DIN Pro Black";
+    font-family: "Roboto";
+    font-weight: 900;
     font-size: 24px;
     color: #fff;
     cursor: pointer;
